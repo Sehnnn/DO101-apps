@@ -10,8 +10,8 @@ app.get('/', function (req, res) {
     //send the response to the client
     res.send(response);
 
-});
-    response = 'This is version 2 of the app.' + '\n';
+}); 
+    response = 'This is version 3 of the app.' + '\n';
 app.listen(8080, function () {
   console.log('Server listening on port 8080...');
 });
